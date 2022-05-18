@@ -9,7 +9,7 @@ QR_FILE = 'qrcode.png'
 QR_CODE_COLOR = (80, 20, 80, 255)
 BACKGROUND_COLOR = (250, 250, 250, 255)
 
-st.title('QR Code Generator App')
+st.title('QRコード作成アプリ')
 st.subheader('You can generate a QR code from a string or URL.')
 st.text('PyQRCodeNG version')
 qr_url = st.text_input('Enter a string or URL to generate a QR code:', value='https://code2create.club/')
